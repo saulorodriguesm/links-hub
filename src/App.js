@@ -1,16 +1,19 @@
-import './App.css';
+import "./App.css";
+import Links from "./components/Links";
+import ProfileImage from "./assets/me.jpg";
 
-function App() {
+function LinksHub() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        
-      </header>
+    <div className="linkshub">
+      <div className="linkshub-container">
+        <div className="linkshub-profile">
+          <img src={ProfileImage} className="linkshub-profile--image" />
+          <span> @nutri.isadoralabiapari </span>
+        </div>
+        <Links/>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default LinksHub;
