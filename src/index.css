@@ -1,8 +1,14 @@
+@font-face {
+  font-family: "MinhaFonte";
+  src: url(./assets/Voguella.ttf);
+}
 body {
-  background-color: pink;
+  background-image: url(./assets/bg.jpg);
+  background-repeat: round;
+  height: 100vh;
+  font-family: "MinhaFonte";
 }
 .linkshub {
-  height: 100vh;
   display: flex;
   justify-content: center;
 }
@@ -12,7 +18,6 @@ body {
   flex-direction: column;
 }
 .linkshub-container {
-  background-color: #fff;
   width: 600px;
   display: flex;
   flex-direction: column;
@@ -21,11 +26,23 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  border: 1px solid #fff;
 }
 .linkshub-links {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .linkshub-links--button {
   margin: 20px 0;
+  background-color: #d73864;
+  width: 350px;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+}
+.linkshub-links--button:hover {
+  opacity: 0.7;
 }

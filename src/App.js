@@ -10,7 +10,7 @@ function LinksHub() {
           <img src={ProfileImage} className="linkshub-profile--image" />
           <span> @nutri.isadoralabiapari </span>
         </div>
-        <Links/>
+        <Links />
       </div>
     </div>
   );

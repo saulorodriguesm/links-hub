@@ -13,7 +13,7 @@ function Links() {
         </button>
         <button className="linkshub-links--button">
           <img />
-          <span> Artigos </span>
+          <span> Cardápio Online </span>
         </button>
       </div>
     </div>
